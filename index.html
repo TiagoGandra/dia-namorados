@@ -225,7 +225,7 @@
         Feliz Dia dos Namorados,<br>
         <span
           class="text-rose-600 block mt-2 font-accent text-5xl sm:text-7xl md:text-9xl normal-case filter drop-shadow-sm font-normal"
-          id="hero-girlfriend-name">Júlia</span>
+          id="hero-girlfriend-name">Andrezza</span>
       </h1>
 
       <!-- Subtítulo -->
@@ -407,7 +407,7 @@
     <div class="max-w-md mx-auto space-y-4 px-4">
       <div class="flex items-center justify-center space-x-2 text-rose-500">
         <i data-lucide="heart" class="w-4 h-4 fill-rose-500"></i>
-        <span class="font-serif font-bold text-slate-800" id="footer-names">Tiago & Júlia</span>
+        <span class="font-serif font-bold text-slate-800" id="footer-names">Tiago & Andrezza</span>
         <i data-lucide="heart" class="w-4 h-4 fill-rose-500"></i>
       </div>
       <p class="text-xs text-slate-400">
@@ -443,7 +443,7 @@
         </div>
 
         <!-- Título do Destinatário -->
-        <h3 class="font-serif text-3xl font-bold text-rose-950" id="modal-title">Querida Júlia,</h3>
+        <h3 class="font-serif text-3xl font-bold text-rose-950" id="modal-title">Querida Andrezza,</h3>
 
         <!-- Corpo da Mensagem (Estilo Carta) -->
         <p class="text-slate-700 font-light leading-relaxed whitespace-pre-line text-base md:text-lg font-serif italic"
@@ -550,52 +550,11 @@
     <span id="toast-text">Mensagem enviada!</span>
   </div>
 
+  <!-- CONFIGURAÇÃO PERSONALIZADA (edite o arquivo config.js) -->
+  <script src="config.js"></script>
+
   <!-- SCRIPT PRINCIPAL DA PÁGINA -->
   <script>
-    // Fallback de segurança se o arquivo config.js não for carregado ou comitado no Git
-    if (typeof VALENTINE_CONFIG === 'undefined') {
-      var VALENTINE_CONFIG = {
-        girlfriendName: "Andrezza",
-        boyfriendName: "Tiago",
-        startDate: "2023-01-19",
-        heroSubtitle: "Uma pequena surpresa para a futura mamãe mais linda e amor da minha vida.",
-        surpriseTitle: "Querida Andrezza,",
-        surpriseMessage: "Desde o momento em que você entrou na minha vida, tudo ganhou mais cor, mais riso e mais sentido. Cada dia ao seu lado é um presente precioso, mas ver você agora, gerando a nossa pequena Olívia, faz meu peito transbordar de um amor que eu nem sabia que existia. Ver nossa família começar a se formar é o meu maior sonho realizado.\n\nObrigado por ser minha companheira, minha melhor amiga e, em breve, a mãe mais incrível e amorosa que a nossa filha poderia ter. Feliz Dia dos Namorados para as minhas duas meninas!",
-        surpriseInvitation: "Que tal comemorarmos com um jantar especial hoje à noite? ❤️",
-        reasons: [
-          {
-            icon: "heart",
-            title: "Seu sorriso iluminado",
-            description: "A forma como os seus olhos sorriem junto com a sua boca tem o poder de transformar qualquer dia cinzento em um dia ensolarado e cheio de paz."
-          },
-          {
-            icon: "sparkles",
-            title: "A forma como você me apoia",
-            description: "Você é minha maior incentivadora e meu porto seguro. Saber que tenho você ao meu lado me dá forças para enfrentar qualquer desafio."
-          },
-          {
-            icon: "tv",
-            title: "Nossas maratonas no sofá",
-            description: "Das risadas bobas no meio da noite até as maratonas de séries no fim de semana dividindo a coberta, a nossa cumplicidade é a melhor parte dos meus dias."
-          },
-          {
-            icon: "baby",
-            title: "O nosso maior presente",
-            description: "A luz que você irradia gerando a nossa Olívia. Ver você nessa jornada me enche de orgulho sabendo que você será a mãe mais incrível de todas."
-          }
-        ],
-        galleryPhotos: [
-          { url: "images/foto1.jpg", caption: "Nosso primeiro pôr do sol juntos" },
-          { url: "images/foto2.jpg", caption: "Aquele dia inesquecível" },
-          { url: "images/foto3.jpg", caption: "Seu riso solto que me encanta" },
-          { url: "images/foto4.jpg", caption: "Cada momento contigo é especial" },
-          { url: "images/foto5.jpg", caption: "Parceiros de aventuras e de vida" },
-          { url: "images/foto6.jpg", caption: "Segurando sua mão para sempre" }
-        ],
-        backgroundMusic: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"
-      };
-    }
-
     // Fallbacks online caso as imagens locais não tenham sido enviadas para o Git
     const UNSPLASH_FALLBACKS = [
       "https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=800&auto=format&fit=crop",

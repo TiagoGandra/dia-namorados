@@ -21,7 +21,7 @@ Abra o arquivo [config.js](file:///home/tiago/app-test-agy/config.js) e edite os
 
 ```javascript
 const VALENTINE_CONFIG = {
-  girlfriendName: "Júlia",         // Nome dela (aparece no título)
+  girlfriendName: "Andrezza",         // Nome dela (aparece no título)
   boyfriendName: "Tiago",          // Seu nome (aparece no subtítulo e rodapé)
   startDate: "2023-06-12",         // Data em que começaram a namorar (AAAA-MM-DD)
   heroSubtitle: "Surpresa...",     // Frase romântica de subtítulo

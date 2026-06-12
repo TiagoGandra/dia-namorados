@@ -11,11 +11,11 @@ const VALENTINE_CONFIG = {
   startDate: "2023-01-19",
 
   // Frase de destaque no topo (Hero)
-  heroSubtitle: "Uma pequena surpresa para a futura mamãe mais linda e amor da minha vida.",
+  heroSubtitle: "Uma pequena surpresa para o amor da minha vida.",
 
   // Configurações do Modal de Surpresa (Declaração de amor)
   surpriseTitle: "Querida Andrezza,",
-  surpriseMessage: "Desde o momento em que você entrou na minha vida, tudo ganhou mais cor, mais riso e mais sentido. Cada dia ao seu lado é um presente precioso, mas ver você agora, gerando a nossa pequena Olívia, faz meu peito transbordar de um amor que eu nem sabia que existia. Ver nossa família começar a se formar é o meu maior sonho realizado.\n\nObrigado por ser minha companheira, minha melhor amiga e, em breve, a mãe mais incrível e amorosa que a nossa filha poderia ter. Feliz Dia dos Namorados para as minhas duas meninas!",
+  surpriseMessage: "Desde o momento em que você entrou na minha vida, tudo ganhou mais cor, mais riso e mais sentido. Cada dia ao seu lado é um presente e o meu lugar favorito no mundo é dentro do seu abraço. Obrigado por ser minha companheira, minha melhor amiga e o meu grande amor. Feliz Dia dos Namorados!",
   surpriseInvitation: "Que tal comemorarmos com um jantar especial hoje à noite? ❤️",
 
   // Motivos para amar (Mínimo de 3 cards recomendados, mas você pode adicionar quantos quiser)
@@ -34,11 +34,6 @@ const VALENTINE_CONFIG = {
       icon: "tv", // Ícone de TV/Séries
       title: "Nossas maratonas no sofá",
       description: "Das risadas bobas no meio da noite até as maratonas de séries no fim de semana dividindo a coberta, a nossa cumplicidade é a melhor parte dos meus dias."
-    },
-    {
-      icon: "baby", // Ícone de bebê para Olívia
-      title: "O nosso maior presente",
-      description: "A luz que você irradia gerando a nossa Olívia. Ver você nessa jornada me enche de orgulho sabendo que você será a mãe mais incrível de todas."
     }
   ],
 
@@ -64,10 +59,6 @@ const VALENTINE_CONFIG = {
     {
       url: "images/foto5.png",
       caption: "Parceiros de aventuras e de vida"
-    },
-    {
-      url: "images/foto6.jpg",
-      caption: "Segurando sua mão para sempre"
     }
   ],
 
