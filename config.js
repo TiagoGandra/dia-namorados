@@ -62,7 +62,7 @@ const VALENTINE_CONFIG = {
       caption: "Cada momento contigo é especial"
     },
     {
-      url: "images/foto5.jpg",
+      url: "images/foto5.png",
       caption: "Parceiros de aventuras e de vida"
     },
     {
